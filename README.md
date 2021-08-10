@@ -1,15 +1,19 @@
-# Jungle
+# Background - Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails.
 
-## Additional Steps for Apple M1 Machines
+## Project Description
 
-1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
-1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
-2. Remove Gemfile.lock
-3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
+There are multiple high-level goals to this project:
 
-## Setup
+- Become familiar with Ruby and the Rails framework
+- Learn how to navigate an existing code-base
+- Use existing code style and approach to implement new features in unfamiliar territory
+- Apply previous learning tactics to research and become familiar with a new paradigm, language and framework
+- A simulation of the real world where feature and bug-fix requests are listed instead of
+- step-by-step instructions on how to implement a solution
+
+## Getting Started
 
 1. Run `bundle install` to install dependencies
 2. Create `config/database.yml` by copying `config/database.example.yml`
@@ -28,6 +32,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
 
-* Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
-* PostgreSQL 9.x
-* Stripe
+- Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+- PostgreSQL 9.x
+- Stripe
+
+![](https://github.com/Flora-manda/Jungle-Project/blob/master/doc/Product_homepage.png?raw=true)
+![](https://github.com/Flora-manda/Jungle-Project/blob/master/doc/Product_detail.png?raw=true)
+![](https://github.com/Flora-manda/Jungle-Project/blob/master/doc/Cart.png?raw=true)
